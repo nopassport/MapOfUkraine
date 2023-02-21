@@ -27,14 +27,11 @@ final class UkraineMapView: UIView {
                                 size: CGSize(width: viewWidth,
                                              height: viewWidth * 0.665849674)))
         self.states = states
+        configViews()
     }
     override init(frame: CGRect) { super.init(frame: frame) }
     required init?(coder: NSCoder) { fatalError() }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        configViews() 
-    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let point = touches.first?.location(in: statesShapesView) else { return }
