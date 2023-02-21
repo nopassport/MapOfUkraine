@@ -1,0 +1,20 @@
+PODS:
+  - PocketSVG (2.7.2)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - PocketSVG (~> 2.6)
+  - SnapKit (~> 5.6.0)
+
+SPEC REPOS:
+  trunk:
+    - PocketSVG
+    - SnapKit
+
+SPEC CHECKSUMS:
+  PocketSVG: c597e6916641fd2674d2f0cabca0d1869cb82880
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: d0f47c22d896ae626fc2ac19b4e9902943970b64
+
+COCOAPODS: 1.11.3

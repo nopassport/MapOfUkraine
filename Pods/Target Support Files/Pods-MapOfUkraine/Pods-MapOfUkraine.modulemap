@@ -1,0 +1,6 @@
+framework module Pods_MapOfUkraine {
+  umbrella header "Pods-MapOfUkraine-umbrella.h"
+
+  export *
+  module * { export * }
+}
